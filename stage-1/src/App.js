@@ -18,32 +18,32 @@ function App() {
         </h1>
       </header>
       <main className="links">
-        <a href="https://training.zuri.team/" id="btn_zuri">
+        <a href="https://training.zuri.team/" id="btn_zuri" target="_blank" rel="noreferrer">
           Zuri Team
         </a>
-        <a href="http://books.zuri.team/" id="books">
+        <a href="http://books.zuri.team/" id="books" target="_blank" rel="noreferrer">
           Zuri Books
         </a>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=Lauraeno" id="boook_python">
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=Lauraeno" id="boook_python" target="_blank" rel="noreferrer">
           Python Books
         </a>
-        <a href="https://background.zuri.team/" id="pitch">
+        <a href="https://background.zuri.team/" id="pitch" target="_blank" rel="noreferrer">
           Background Checks for coders
         </a>
-        <a href="https://books.zuri.team/design-rules" id="book_design">
+        <a href="https://books.zuri.team/design-rules" id="book_design" target="_blank" rel="noreferrer">
           Design Books
         </a>
         <div className="socials" id="">
-          <img src={slack}/>  
+          <img src={slack}/> 
           <img src={github}/>        
         </div>
       </main>
-      {//<footer className="footer" id="">
-          //<img src={vector}/>  
-          //<p>HNG Internship 9 Frontend Task</p>
-          //<img src={i4g}/> 
-      //</footer>-->
-    }
+      <footer className="footer" id="">
+          <img src={vector} id="vector"/>  
+          <p>HNG Internship 9 Frontend Task</p>
+          <img src={i4g} id="i4g"/> 
+      </footer>
+    
     </div>
   );
 }
