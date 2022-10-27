@@ -12,12 +12,15 @@ function App() {
     <div className="App">
       <header>
         <img src="https://raw.githubusercontent.com/nyeno/nyeno/main/me.png" alt="avatar" id="profile_img"/>
-        <h3 id="twitter">@_laurae</h3>
+        <h3>Nyenooke Eno</h3>
         <h1 id="slack">
           nyenooke
         </h1>
       </header>
       <main className="links">
+      <a href="https://twitter.com/_laurae" id="twitter" target="_blank" rel="noreferrer">
+          Twitter Link
+        </a>
         <a href="https://training.zuri.team/" id="btn_zuri" target="_blank" rel="noreferrer">
           Zuri Team
         </a>
