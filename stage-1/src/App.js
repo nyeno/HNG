@@ -14,7 +14,7 @@ function App() {
         <img src="https://raw.githubusercontent.com/nyeno/nyeno/main/me.png" alt="avatar" id="profile_img"/>
         <h3 id="twitter">@_laurae</h3>
         <h1 id="slack">
-          @_laurae
+          nyenooke
         </h1>
       </header>
       <main className="links">
@@ -24,7 +24,7 @@ function App() {
         <a href="http://books.zuri.team/" id="books" target="_blank" rel="noreferrer">
           Zuri Books
         </a>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=Lauraeno" id="boook_python" target="_blank" rel="noreferrer">
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=nyenooke" id="boook_python" target="_blank" rel="noreferrer">
           Python Books
         </a>
         <a href="https://background.zuri.team/" id="pitch" target="_blank" rel="noreferrer">
