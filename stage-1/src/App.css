@@ -13,9 +13,20 @@
   margin: 0 2em;
 }
 
-#profile_img{
+#profile__img{
   width: 88px;
   height: 88px;
+}
+header{
+  position: relative;
+}
+button{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 5vw;
 }
 
 a{
@@ -49,7 +60,11 @@ a{
     height: 32px;
     width: 132.1290283203125px;
   }
-  footet p{
+  footer p{
     color: #667085;;
   }
+  button{
+    right: 20vw;
+  }
+  
 }
