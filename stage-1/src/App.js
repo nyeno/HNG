@@ -14,7 +14,7 @@ function App() {
       <header>
         <div>
           <img src="https://raw.githubusercontent.com/nyeno/nyeno/main/me.png" alt="avatar" id="profile__img"/>
-          <h3 id="twitter">Nyenooke Eno</h3>
+          <h3>Nyenooke Eno</h3>
           <h1 id="slack">
             nyenooke
           </h1>
