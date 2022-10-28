@@ -14,7 +14,7 @@ function App() {
       <header>
         <div>
           <img src="https://raw.githubusercontent.com/nyeno/nyeno/main/me.png" alt="avatar" id="profile__img"/>
-          <h3>Nyenooke Eno</h3>
+          <h3 id="twitter’">Nyenooke Eno</h3>
           <h1 id="slack">
             nyenooke
           </h1>
@@ -24,7 +24,7 @@ function App() {
         </button>
       </header>
       <main className="links">
-      <a href="https://twitter.com/_laurae" id="twitter" target="_blank" rel="noreferrer">
+        <a href="https://twitter.com/_laurae" target="_blank" rel="noreferrer">
           Twitter Link
         </a>
         <a href="https://training.zuri.team/" id="btn__zuri" target="_blank" rel="noreferrer">
