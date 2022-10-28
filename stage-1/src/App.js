@@ -24,7 +24,7 @@ function App() {
         </button>
       </header>
       <main className="links">
-        <a href="https://twitter.com/_laurae" target="_blank" rel="noreferrer">
+        <a id="twitter" href="https://twitter.com/_laurae" target="_blank" rel="noreferrer">
           Twitter Link
         </a>
         <a href="https://training.zuri.team/" id="btn__zuri" target="_blank" rel="noreferrer">
