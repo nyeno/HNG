@@ -1,0 +1,66 @@
+#slack{
+    display: none;
+  }
+  
+  .links > *{
+    display: block;
+  }
+  .socials img{
+    margin: 0 2em;
+  }
+  
+  #profile__img{
+    width: 88px;
+    height: 88px;
+  }
+  header{
+    position: relative;
+  }
+  button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 5vw;
+  }
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+    background-color: #EAECF0;
+    margin: 24px 0;
+    padding: 24px 32px;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+  
+  }
+  .footer{
+    display: none;
+  
+  }
+  @media screen and (min-width: 1200px) {
+    .footer{
+      display: flex;
+      justify-content: space-evenly;
+      border-top: 1px solid #667085;
+      padding: 2em 0 1em;
+      align-items: center;
+      margin-top: 1em;
+    }
+    #vector{
+      height: 24.73708152770996px;
+      width: 185.0301055908203px;
+    }
+    #i4g{
+      height: 32px;
+      width: 132.1290283203125px;
+    }
+    footer p{
+      color: #667085;;
+    }
+    button{
+      right: 20vw;
+    }
+    
+  }
