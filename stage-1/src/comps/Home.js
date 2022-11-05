@@ -40,7 +40,7 @@ export default function Home() {
         <a href="https://books.zuri.team/design-rules" id="book__design" target="_blank" rel="noreferrer">
           Design Books
         </a>
-        <Link to='/contact' id='contact' target="_blank">Contact</Link>
+        <Link to='/contact' id='contact' target="_blank">Contact Me</Link>
         <div className="socials" id="">
           <img src={slack} alt="icons"/> 
           <img src={github} alt="icons"/>        
