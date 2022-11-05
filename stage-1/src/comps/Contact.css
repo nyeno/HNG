@@ -1,0 +1,23 @@
+.contact-me{
+    text-align: left;
+    
+}
+
+#message{
+    height: 132px;
+
+}
+p{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+input:invalid[focused="true"],textarea:invalid[focused="true"] {
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"]~ p ,textarea:invalid[focused="true"]~ p{
+    display: block;
+}

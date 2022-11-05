@@ -2,6 +2,8 @@ import React from 'react'
 
 import i4g from '../icons/I4G.png'
 import vector from '../icons/Vector.png'
+import './Footer.css'
+
 
 export default function Footer() {
   return (

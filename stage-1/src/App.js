@@ -4,6 +4,7 @@ import './App.css';
 import Contact from './comps/Contact';
 import { Routes, Route, Link } from 'react-router-dom';
 import Home from './comps/Home';
+import Footer from './comps/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route exact path='/' element={<Home/>} />
         <Route exact path='/contact' element={<Contact/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

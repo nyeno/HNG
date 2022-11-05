@@ -4,7 +4,7 @@ import github from '../icons/github.png'
 import share from '../icons/share.png';
 import './Home.css'
 import {  Link } from 'react-router-dom';
-import Footer from './Footer';
+
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
             nyenooke
           </h1>
         </div>
-        <button>
+        <button className='button'>
           <img src={share} alt="share" id="share"/>
         </button>
       </header>
@@ -40,13 +40,13 @@ export default function Home() {
         <a href="https://books.zuri.team/design-rules" id="book__design" target="_blank" rel="noreferrer">
           Design Books
         </a>
-        <Link to='/contact'>Contact</Link>
+        <Link to='/contact' id='contact' target="_blank">Contact</Link>
         <div className="socials" id="">
           <img src={slack} alt="icons"/> 
           <img src={github} alt="icons"/>        
         </div>
       </main>
-     <Footer/>
+  
     
     </div>
   )
