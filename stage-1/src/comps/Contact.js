@@ -49,11 +49,12 @@ export default function Contact() {
                 
             </div>
             <div className='check'>
-                <input type="checkbox" name='checked' required/>
+                <input type="checkbox" name='checked' id='checked' required/>
                 <label>You agree to sending your data to {name} who may contact you.</label>
             </div>
             <button id="btn__submit" type='submit'>Send Message</button>
         </form>
+        <p></p>
     </div>
   )
 }

@@ -46,8 +46,6 @@ export default function Home() {
           <img src={github} alt="icons"/>        
         </div>
       </main>
-  
-    
     </div>
   )
 }
