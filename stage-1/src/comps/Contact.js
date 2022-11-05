@@ -3,7 +3,7 @@ import './Contact.css'
 
 export default function Contact() {
   const name = "Nyenooke Eno"
- // const [focused, setFocused] = useState(false);
+ const [submitted, setSubmitted] = useState(false);
   const [blur, setBlur] = useState({
     first: false,
     last: false,
@@ -14,11 +14,12 @@ export default function Contact() {
   });
 
   const handleFocus = (e) => {
-    //setFocused(true);
     setBlur({ ...blur, [e.target.name]: true });
-    //console.log(blur)
   };
-
+  const handleSubmit = (e) => {
+    //e.preventDefault();
+    setSubmitted(true)
+  };
 
   return (
     <div className='contact-me'>
@@ -26,7 +27,7 @@ export default function Contact() {
             Contact Me
         </h2>
         <p>Hi there, contact me to ask me about anything you have in mind.</p>
-        <form className='form'>
+        <form className='form' onSubmit={handleSubmit}>
             <div className='first'>
                 <label>First Name</label>
                 <input id="first_name" name='first' type="text" required placeholder='Enter your first name' onBlur={handleFocus} focused={blur['first'].toString()}/>
@@ -46,13 +47,13 @@ export default function Contact() {
                 <label>Message</label>
                 <textarea id="message" name='message' required placeholder="Send me a message and I'll reply you as soon as possible..." onBlur={handleFocus} focused={blur['message'].toString()}/>
                 <p className='error-message'>Please enter a message</p>  
-                
             </div>
             <div className='check'>
                 <input type="checkbox" name='checked' id='checked' required/>
                 <label>You agree to sending your data to {name} who may contact you.</label>
             </div>
             <button id="btn__submit" type='submit'>Send Message</button>
+            {submitted && (<p className='submitted'>Thank you contacting me. I will get back to you as soon as I can</p>)}
         </form>
         <p></p>
     </div>

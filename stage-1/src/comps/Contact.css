@@ -128,7 +128,7 @@ input:invalid[focused="true"]~ p ,textarea:invalid[focused="true"]~ p{
         flex-direction: column;
         grid-column-start: span 2;
     }
-    button{
+    button, .submitted{
         grid-column-start: span 2;
     }
     .check{
