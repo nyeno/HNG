@@ -1,15 +1,71 @@
 .contact-me{
     text-align: left;
-    
+    margin: 2em 2vw;
+}
+.contact-me>p{
+    color: #475467;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+label{
+    margin: 0.5em 0;
+}
+
+#btn__submit{
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: hsla(215, 87%, 51%, 1);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+.check{
+    flex-direction: row;
+    align-items: center;
+
+}
+.check > *{
+    margin-right: 1em;
+}
+
+input, textarea{
+    padding: 0.6em 1.2em;
+    border: 1px solid hsla(216, 16%, 84%, 1);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    color: #101828;
+}
+input::placeholder, textarea::placeholder{
+    color: #667085;
+}
+input:focus, textarea:focus{
+    border: 1px solid #84CAFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }
 
 #message{
     height: 132px;
 
 }
-p{
-    font-size: 12px;
-    padding: 3px;
+.error-message{
+    font-size: 1rem;
     color: red;
     display: none;
 }
@@ -20,4 +76,35 @@ input:invalid[focused="true"],textarea:invalid[focused="true"] {
 
 input:invalid[focused="true"]~ p ,textarea:invalid[focused="true"]~ p{
     display: block;
+}
+
+
+
+@media screen and (min-width: 1200px){
+    .contact-me{
+        margin: 5em 20vw;
+    }
+    form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+    form .first{
+        grid-column-start: span 1;
+    }
+    form .last{
+        grid-column-start: span 1;
+    }
+    form div{
+        display: flex;
+        flex-direction: column;
+        grid-column-start: span 2;
+    }
+    button{
+        grid-column-start: span 2;
+    }
+    .check{
+        flex-direction: row;
+        
+    }
 }

@@ -5,6 +5,17 @@
   margin: 1em 5vw;
 
 }
+#vector{
+  height: 24.73708152770996px;
+  width: 185.0301055908203px;
+}
+#i4g{
+  height: 32px;
+  width: 132.1290283203125px;
+}
+footer p{
+  color: #667085;;
+}
 @media screen and (min-width: 1200px) {
   .footer{
     display: flex;
@@ -14,16 +25,6 @@
     margin: 1em 0;
     padding: 1em 0;
   }
-  #vector{
-    height: 24.73708152770996px;
-    width: 185.0301055908203px;
-  }
-  #i4g{
-    height: 32px;
-    width: 132.1290283203125px;
-  }
-  footer p{
-    color: #667085;;
-  }
+
 
 }
