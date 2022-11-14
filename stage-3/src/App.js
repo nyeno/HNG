@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './comp/Navbar';
 import { Routes, Route} from 'react-router-dom';
@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Nfts from './pages/Nfts';
 import Community from './pages/Community';
 import PlaceToStay from './pages/PlaceToStay';
+import Footer from './comp/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/nfts' element={<Nfts/>} />
         <Route exact path='/community' element={<Community/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

@@ -1,10 +1,16 @@
 import React from 'react'
-import Navbar from '../comp/Navbar'
+import Intro from '../comp/Intro'
+import More from '../comp/More'
+import Partners from '../comp/Partners'
+
+
 
 export default function Home() {
   return (
     <div>
-       Home
+       <Intro/>
+       <Partners/>
+       <More/>
     </div>
   )
 }
