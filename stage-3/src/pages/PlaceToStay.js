@@ -4,7 +4,7 @@ import Room from '../comp/Room'
 import data from "../data.json"
 
 import TuneIcon from '@mui/icons-material/Tune';
-import MenuIcon from '@mui/icons-material/Menu';
+
 
 export default function PlaceToStay() {
 
