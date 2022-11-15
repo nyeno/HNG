@@ -36,18 +36,18 @@ export default function Room({nft}) {
           </div>
       </div>
       <section className='flex justify-between mt-3'>
-        <div className='space-y-2'>
+        <div className='space-y-2 text-xs'>
             <p>{nft.name}</p>
             <p>{nft.distance}</p>
             <StyledRating
               name="customized-color"
               defaultValue={5}
               precision={0.5}
-              icon={<StarIcon fontSize="inherit" />}
-              emptyIcon={<StarBorderIcon fontSize="inherit" />}/>
+              icon={<StarIcon fontSize="small" />}
+              emptyIcon={<StarBorderIcon fontSize="small" />}/>
           </div>
-          <div className='space-y-2'>
-            <p className='text-right'>{nft.price}</p>
+          <div className='space-y-2 text-xs'>
+            <p className='text-right font-bold'>{nft.price}</p>
             <p className='text-right'>{nft.available}</p> 
           </div>
       </section>

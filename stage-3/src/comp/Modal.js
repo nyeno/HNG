@@ -8,7 +8,7 @@ const Modal = (props) => {
   return (
     <div className='flex justify-center'>
       <div className="fixed bg-modal top-0 h-screen w-screen z-10" onClick={props.closeModal} />
-      <div className="fixed bg-white m-auto w-[37.5rem] top-1/3 rounded-2xl z-20">
+      <div className="fixed bg-white m-auto w-full  lg:w-[37.5rem] top-1/3 rounded-2xl z-20">
         <header className="flex justify-between py-6 px-8 border-b border-borderColor ">
           <h2 className='text-2xl font-bold'>Connect Wallet</h2>
           <button onClick={props.closeModal}>X</button>
