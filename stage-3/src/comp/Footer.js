@@ -6,19 +6,19 @@ import twitter from '../assets/icons/twitter.png'
 
 export default function Footer() {
   return (
-    <footer className='bg-[#1D1D1E] flex justify-between'>
-        <section>
+    <footer className='bg-[#1D1D1E] text-white flex justify-between py-16 px-7vw'>
+        <section className='space-y-16'>
             <img src={metabnb} alt='meta bnb logo'/>
-            <div className='flex'>
+            <div className='flex space-x-8'>
                 <span><img src={fb} alt='Facebook logo'/></span>
                 <span><img src={ig} alt='Instagram logo'/></span>
                 <span><img src={twitter} alt='Twitter logo'/></span>
             </div>
-            <p>© 2022 Metabnb</p>
+            <p className=''>© 2022 Metabnb</p>
         </section>
         <section>
-            <h3>Community</h3>
-            <nav>
+            <h3 className='text-lg font-bold my-6'>Community</h3>
+            <nav className='space-y-5'>
                 <p>NFT</p>
                 <p>Tokens</p>
                 <p>Landlords</p>
@@ -26,8 +26,8 @@ export default function Footer() {
             </nav>
         </section>
         <section>
-            <h3>Places</h3>
-            <nav>
+            <h3 className='text-lg font-bold my-6'>Places</h3>
+            <nav className='space-y-5'>
                 <p>Castle</p>
                 <p>Farms</p>
                 <p>Beach</p>
@@ -35,8 +35,8 @@ export default function Footer() {
             </nav>
         </section>
         <section>
-            <h3>About Us</h3>
-            <nav>
+            <h3 className='text-lg font-bold my-6'>About Us</h3>
+            <nav className='space-y-5'>
                 <p>Road Map</p>
                 <p>Creators</p>
                 <p>Career</p>

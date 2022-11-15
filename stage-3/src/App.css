@@ -1,16 +1,4 @@
-.grid-area-1{
-  background-image: url('./assets/nfts/nft1.png');
-  
-}
-.grid-area-2{
-  background-image: url('./assets/nfts/nft3.png');
-  
-}
-.grid-area-3{
-  background-image: url('./assets/nfts/nft2.png');
-  
-}
-.grid-area-4{
-  background-image: url('./assets/nfts/nft4.png');
-  
+
+input{
+  outline: none;
 }

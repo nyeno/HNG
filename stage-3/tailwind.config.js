@@ -6,10 +6,17 @@ module.exports = {
     "./src/**/*.{html,js}"],
   theme: {
     colors:{
-      primary : "#A02279"
+      primary : "#A02279",
+      modal: "hsla(0, 0%, 25%, 0.3)",
+      white: "#ffffff",
+      borderColor:"hsla(198, 16%, 84%, 1)",
+      inputBorder:"hsla(0, 0%, 64%, 1)",
+      imgBorder:"hsla(0, 0%, 84%, 1)"
     },
     extend: {
-
+      spacing: {
+        '7vw': '7vw',
+      }
     },
   },
   plugins: [],

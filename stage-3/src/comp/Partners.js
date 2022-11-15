@@ -6,7 +6,7 @@ import opensea from'../assets/icons/opensea.svg'
 
 export default function Partners() {
   return (
-    <div className='bg-primary flex justify-between'>
+    <div className='bg-primary flex justify-between py-3 px-12'>
         <img src={mbtoken} alt="mbtoken logo"/>
         <img src={metamask} alt="metamask logo"/>
         <img src={opensea} alt="opeansea logo"/>
