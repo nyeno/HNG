@@ -9,9 +9,9 @@ import TuneIcon from '@mui/icons-material/Tune';
 export default function PlaceToStay() {
 
   return (
-    <div className='px-3vw md:px-5vw lg:px-7vw space-y-12 py-16'>
+    <div className='px-3vw md:px-5vw lg:px-7vw space-y-12 py-12'>
       <nav className='flex justify-between text-xl items-center space-x-4'>
-        <div className='overflow-x-scroll flex justify-between items-center space-x-4 lg:w-5/6'>
+        <div className='overflow-x-scroll flex justify-between items-center space-x-6 lg:w-5/6'>
           <p>Resturant</p>
           <p>Castle</p>
           <p>Cottage</p>
