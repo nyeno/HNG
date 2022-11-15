@@ -6,7 +6,7 @@ import twitter from '../assets/icons/twitter.png'
 
 export default function Footer() {
   return (
-    <footer className='bg-[#1D1D1E] text-white grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 py-16 px-3vw md:px-5vw lg:px-7vw'>
+    <footer className='bg-[#1D1D1E] text-white grid lg:grid-cols-4 lg:place-items-end md:grid-cols-2 grid-cols-1 gap-8 py-16 px-3vw md:px-5vw lg:px-7vw'>
         <section className='space-y-16'>
             <img src={metabnb} alt='meta bnb logo'/>
             <div className='flex space-x-8'>
