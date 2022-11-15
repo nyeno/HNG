@@ -10,8 +10,8 @@ export default function PlaceToStay() {
 
   return (
     <div className='px-3vw md:px-5vw lg:px-7vw space-y-12 py-16'>
-      <nav className='flex justify-between text-xl items-center '>
-        <div className='hidden lg:flex lg:justify-between lg:w-5/6'>
+      <nav className='flex justify-between text-xl items-center space-x-4'>
+        <div className='overflow-x-scroll flex justify-between items-center space-x-4 lg:w-5/6'>
           <p>Resturant</p>
           <p>Castle</p>
           <p>Cottage</p>
@@ -20,10 +20,6 @@ export default function PlaceToStay() {
           <p>Cabins</p>
           <p>Off-grid</p>
           <p>Farms</p>
-        </div>
-        <div className='space-x-10 flex border-settingBorder border p-3.5 rounded-lg lg:hidden'>
-          <p>Categories</p>
-          <MenuIcon />
         </div>
         <div className='space-x-10 flex border-settingBorder border p-3.5 rounded-lg'>
           <p>Locations</p>
