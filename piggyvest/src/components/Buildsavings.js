@@ -18,21 +18,21 @@ export default function Buildsavings() {
   name: 'Safelock',
   image: safelock,
   title: 'Fixed Savings',
-  info: 'Lock money away with no withdrawals ',
+  info: "Lock money away for a fixed duration with no access to it until maturity. It's like having a custome fixed deposit",
   color: ''
  },
  {
-  name: 'Piggybank',
-  image: piggy,
-  title: 'Automated Savings',
-  info: 'Build a dedicated savings faster on your own terms automatically or manually',
+  name: 'Target Savings',
+  image: target,
+  title: 'Goal-oriented Savings',
+  info: 'Reach your savings goals faster. Save towards multiple goals on your own or with a group',
   color: ''
  },
  {
-  name: 'Piggybank',
-  image: piggy,
-  title: 'Automated Savings',
-  info: 'Build a dedicated savings faster on your own terms automatically or manually',
+  name: 'Flex Naira',
+  image: flex,
+  title: 'Flexible Savings',
+  info: 'Save, transfer, withdraw, manage and organize your money for free at any time',
   color: ''
  }
 ]
