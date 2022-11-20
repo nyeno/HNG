@@ -14,13 +14,16 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Landing />
-      <Security />
-      <BuildSavings />
-      <Returns />
-      <MonthSaver />
-      <Customers />
-      <Featured />
+      <main className='mx-24 space-y-32 my-20'>
+        <Landing />
+        <Security />
+        <BuildSavings />
+        <Returns />
+        <MonthSaver />
+        <Customers />
+        <Featured />
+      </main>
+
       <Footer />
     </div>
   );

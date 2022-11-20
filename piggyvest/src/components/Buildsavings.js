@@ -38,16 +38,16 @@ export default function Buildsavings() {
 ]
 
   return (
-    <div>
+    <div className='lg:flex'>
       <section>
         <h2>4 ways to build your savings</h2>
         <p>Earn 5%-15% when you save with any of these PiggyVest plans.</p>
         <button>Start Saving</button>
       </section>
-      <section>
+      <section className='grid grid-cols-2'>
         {features.map(feature => {
           return <div>
-            <img src={feature.image} alt={feature.info}/>
+            <img src={feature.image} alt={feature.info} className="h-12 w-12"/>
             <h3>{feature.title}</h3>
             <p>{feature.info}</p>
             <div>
