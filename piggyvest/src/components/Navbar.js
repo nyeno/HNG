@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import logo from '../assets/icons-logos/piggy-logo.svg'
 import PhoneNav from './PhoneNav';
+import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Navbar() {
    const [dispNav, setDispNav] = useState(false);
@@ -10,12 +11,12 @@ export default function Navbar() {
    };
 
   return (
-    <>
-      <nav className="flex items-center justify-between shadow-md py-4 px-12 z-20 sticky top-0 bg-white">
-        <section className="flex items-center justify-between">
-          <img src={logo} alt="PiggyVest Logo" />
-          <button onClick={menuClicked} className="bg-blue-100 lg:hidden">
-            Open
+    <div className=" z-20 sticky top-0 bg-white w-full">
+      <nav className="lg:flex items-center justify-between shadow-md py-4 px-6 lg:px-12 ">
+        <section className="flex items-center justify-between lg:space-x-12 ">
+          <img src={logo} alt="PiggyVest Logo" className="" />
+          <button onClick={menuClicked} className="lg:hidden ">
+            <MenuIcon />
           </button>
         </section>
         <section className="hidden lg:flex items-center space-x-10 justify-self-start">
@@ -35,7 +36,7 @@ export default function Navbar() {
         </section>
       </nav>
       {dispNav && <PhoneNav />}
-    </>
+    </div>
   );
 }
 

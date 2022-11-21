@@ -1,33 +1,26 @@
-import React, { useState } from "react";
-import logo from "../assets/icons-logos/piggy-logo.svg";
+import React from "react";
+
 
 export default function PhoneNav() {
-  const [dispNav, setDispNav] = useState(false);
-  const menuClicked = () => {
-    setDispNav(!dispNav);
-  };
+
 
   return (
-    <nav>
-      <section>
-        <img src={logo} alt="PiggyVest Logo" />
-        <button onClick={menuClicked} className="bg-blue-100 lg:hidden">
-          Open
+    <nav className="fixed top-18 bg-white h-full w-full z-50 text-center py-12 px-6">
+      <section className="space-y-6">
+        <p>Save</p>
+        <p>Invest</p>
+        <p>Stories</p>
+        <p>FAQs</p>
+        <p>Blog</p>
+      </section>
+      <section className="space-y-6 py-6">
+        <button className=" block w-full py-2 font-bold rounded-lg border border-slate-600 hover:border-brightBlue">
+          Sign In
+        </button>
+        <button className=" block w-full py-2.5 font-bold rounded-lg border bg-bluePrimary text-white hover:bg-brightBlue">
+          Create free account
         </button>
       </section>
-      <div className={`bg-white w-full h-full ${dispNav ? "fixed" : "static"}`}>
-        <section>
-          <p>Save</p>
-          <p>Invest</p>
-          <p>Stories</p>
-          <p>FAQs</p>
-          <p>Blog</p>
-        </section>
-        <section>
-          <button>Sign In</button>
-          <button>Create free account</button>
-        </section>
-      </div>
     </nav>
   );
 }
