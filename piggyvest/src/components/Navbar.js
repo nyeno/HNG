@@ -15,7 +15,7 @@ export default function Navbar() {
       <nav className="lg:flex items-center justify-between shadow-md py-4 px-6 lg:px-12 ">
         <section className="flex items-center justify-between lg:space-x-12 ">
           <img src={logo} alt="PiggyVest Logo" className="" />
-          <button onClick={menuClicked} className="lg:hidden ">
+          <button onClick={menuClicked} className="lg:hidden p-3 ">
             <MenuIcon />
           </button>
         </section>
