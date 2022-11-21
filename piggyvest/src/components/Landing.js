@@ -18,7 +18,7 @@ export default function Landing() {
         <button className="py-3 px-6 font-bold rounded-lg bg-bluePrimary text-white hover:bg-brightBlue">
           Create free account
         </button>
-        <div className="flex space-x-4 justify-center">
+        <div className="flex space-x-4 justify-center lg:justify-start">
           <button className="flex lg:space-x-4 py-3 px-1.5 lg:px-6 lg:font-bold rounded-lg border-grey-500 border transition ease-in-out delay-150 hover:-translate-y-2.5 duration-300">
             <img src={appleLogo} alt="Download on App store" />
             <p>Get on iPhone</p>
